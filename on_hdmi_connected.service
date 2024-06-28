@@ -1,0 +1,11 @@
+[Unit]
+Description=on hdmi connected service. reset bottom plank and change sound source
+After=default.target
+
+[Service]
+ExecStart=path/to/bash-script
+Restart=always
+
+
+[Install]
+WantedBy=default.target
